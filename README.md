@@ -1,6 +1,6 @@
 # sbd-data-nanocommons
 Import module for NanoCommons data. In the future this import should be done by an approach using the
-[BMUSE software](Tox Community accepted (finally)).
+[BMUSE software](https://github.com/HW-SWeL/BMUSE).
 
 # Data sources:
 
