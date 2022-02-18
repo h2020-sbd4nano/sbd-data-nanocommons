@@ -15,48 +15,48 @@
 <https://doi.org/10.5281/zenodo.4986068> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "BAM reference data: XPS raw data of Al-coated titania nanoparticles (JRCNM62001a and JRCNM62002a)"@en ;
-  dc:description "Data linked to Radnik, J. Kersting, R., Hagenhoff, B., Bennet, F., Ciornii, D.; Nymark, P., Grafström R. and Hodoroaba, V.-D. Nanomaterials 2021, 11, 639. https://doi.org/10.3390/nano11030639." ;
+  dc:description "Data linked to Radnik, J. Kersting, R., Hagenhoff, B., Bennet, F., Ciornii, D.; Nymark, P., Grafström R. and Hodoroaba, V.-D. Nanomaterials 2021, 11, 639. https://doi.org/10.3390/nano11030639."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page "https://zenodo.org/record/4986068" .
 
 <https://doi.org/10.5281/zenodo.4713745> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "NanoReg2 - eNanoMapper database"@en ;
-  dc:description "H2020 NanoReg2 project data SQL dump for AMBIT chemical substance data management software." ;
+  dc:description "H2020 NanoReg2 project data SQL dump for AMBIT chemical substance data management software."@en ;
   dct:license <https://creativecommons.org/licenses/by-nc/4.0/legalcode> ;
   foaf:page "https://zenodo.org/record/4713745" .
 
 <https://doi.org/10.5281/zenodo.4146981> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials)"@en ;
-  dc:description "Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials" ;
+  dc:description "Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page "https://zenodo.org/record/4146981" .
 
 <https://doi.org/10.6084/m9.figshare.11897205.v1> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "NanoWiki 6"@en ;
-  dc:description "Data collection manually extracted from literature" ;
+  dc:description "Data collection manually extracted from literature"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page "https://doi.org/10.6084/m9.figshare.11897205.v1" .
 
 <https://doi.org/10.5281/zenodo.3467015> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "NANoREG - eNanoMapper database"@en ;
-  dc:description "In NANoREG over 85 institutional partners from EU member states, associated states, the Republic of Korea and Brazil collaborated in developing reliable, reproducible and relevant methods for testing and assessing the effects of nanomaterials on human health and environment in a regulatory context." ;
+  dc:description "In NANoREG over 85 institutional partners from EU member states, associated states, the Republic of Korea and Brazil collaborated in developing reliable, reproducible and relevant methods for testing and assessing the effects of nanomaterials on human health and environment in a regulatory context."@en ;
   dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode> ;
   foaf:page "https://zenodo.org/record/3467015" .
 
 <https://doi.org/10.5281/zenodo.35493> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "All NanoPUZZLES ISA-TAB-Nano datasets"@en ;
-  dc:description "This file is a ZIP archive which contains ALL publicly released ISA-TAB-Nano datasets developed within the NanoPUZZLES EU project [http://www.nanopuzzles.eu]. The (meta)data in these datasets were extracted from literature references." ;
+  dc:description "This file is a ZIP archive which contains ALL publicly released ISA-TAB-Nano datasets developed within the NanoPUZZLES EU project [http://www.nanopuzzles.eu]. The (meta)data in these datasets were extracted from literature references."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page "https://zenodo.org/record/35493" .
 
 <https://doi.org/10.6084/m9.figshare.2056095.v1> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
   rdfs:label "NanoPUZZLES ISA-TAB-Nano dataset: Data extracted from NanoCare project final scientific report"@en ;
-  dc:description "This file is a ZIP archive which contains three different copies of an ISA-TAB-Nano dataset developed within the NanoPUZZLES EU project (http://www.nanopuzzles.eu). The (meta)data in this dataset were primarily extracted from the following reference, with additional references consulted as indicated in the Investigation file: Data extracted from NanoCare project final scientific report: http://www.nanopartikel.info/files/projekte/NanoCare/NanoCare_Final_Report.pdf (last accessed 4th of June 2015)" ;
+  dc:description "This file is a ZIP archive which contains three different copies of an ISA-TAB-Nano dataset developed within the NanoPUZZLES EU project (http://www.nanopuzzles.eu). The (meta)data in this dataset were primarily extracted from the following reference, with additional references consulted as indicated in the Investigation file: Data extracted from NanoCare project final scientific report: http://www.nanopartikel.info/files/projekte/NanoCare/NanoCare_Final_Report.pdf (last accessed 4th of June 2015)"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page "https://doi.org/10.6084/m9.figshare.2056095.v1" .
