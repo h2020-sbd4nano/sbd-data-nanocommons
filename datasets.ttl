@@ -1,4 +1,4 @@
-#254 triples detected in the JSON-LD
+#284 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -33,6 +33,13 @@
   dc:description "Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://doi.org/10.5281/zenodo.4146981> .
+
+<https://doi.org/10.5281/zenodo.4421969> a sbd:Dataset ;
+  dc:source <https://nanocommons.github.io/datasets/> ;
+  rdfs:label "Status quo in data availability and predictive models of nano-mixture toxicity"@en ;
+  dc:description "Supplementary materials for manuscript: Status quo in data availability and predictive models of nano-mixture toxicity. This table contains the list of 183 curated literature used in this study."@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://doi.org/10.5281/zenodo.4421969> .
 
 <https://doi.org/10.5281/zenodo.4609840> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
@@ -89,6 +96,12 @@
   dc:description "This is an RDFied version of the dataset published by Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019). The original dataset publication DOI: https://doi.org/10.1021/acsnano.8b07562 The Original publication authors: Hagar I. Labouta, Nasimeh Asgarian, Kristina Rinker, and David T. Cramb"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://doi.org/10.5281/zenodo.5744302> .
+
+<https://doi.org/10.5281/zenodo.6473305> a sbd:Dataset ;
+  dc:source <https://nanocommons.github.io/datasets/> ;
+  rdfs:label "Raw data of in vitro investigations on immune activation by bare and surface-functionalized SiO2 NP-allergen conjugates using human monocyte-derived dendritic cells as model antigen-presenting cells. Data repository for Punz B. et al., 2022"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://zenodo.org/record/6473305> .
 
 <https://doi.org/10.6084/m9.figshare.11897205.v1> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
