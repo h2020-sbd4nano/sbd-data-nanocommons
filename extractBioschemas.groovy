@@ -20,7 +20,7 @@ bioschemasSections = jsoup.select(htmlDom, "script[type='application/ld+json']")
 
 kg = rdf.createInMemoryStore()
 
-for (section : bioschemasSections) {
+for (section in bioschemasSections) {
   bioschemasJSON = section.html()
   rdf.importFromString(kg, bioschemasJSON, "JSON-LD")
 }
