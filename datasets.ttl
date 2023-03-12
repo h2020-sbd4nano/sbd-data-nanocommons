@@ -1,4 +1,4 @@
-#353 triples detected in the JSON-LD
+#365 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -102,6 +102,12 @@
   rdfs:label "Raw data of in vitro investigations on immune activation by bare and surface-functionalized SiO2 NP-allergen conjugates using human monocyte-derived dendritic cells as model antigen-presenting cells. Data repository for Punz B. et al., 2022"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://zenodo.org/record/6473305> .
+
+<https://doi.org/10.5281/zenodo.7335039> a sbd:Dataset ;
+  dc:source <https://nanocommons.github.io/datasets/> ;
+  rdfs:label "Extracting interpretable rules with Bayesian Networks. A case study of intrinsic human hazardous properties of silver nanoforms for the Safety Dimension of Safe and Sustainable by design paradigm"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://zenodo.org/record/7335039> .
 
 <https://doi.org/10.5281/zenodo.7602354> a sbd:Dataset ;
   dc:source <https://nanocommons.github.io/datasets/> ;
