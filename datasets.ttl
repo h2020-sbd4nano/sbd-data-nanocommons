@@ -9,6 +9,7 @@
 
 <https://nanocommons.github.io/datasets/>
  a                    void:DatasetDescription ;
+ dc:source            <https://nanocommons.github.io/datasets/> ;
  dct:title            "Overview of open datasets released by NanoSafety Cluster projects"@en ;
  foaf:img             <https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> .
