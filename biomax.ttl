@@ -1,0 +1,428 @@
+#867 triples detected in the JSON-LD
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+
+<https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi>
+ a                    void:DatasetDescription ;
+ dc:source            <https://ssl.biomax.de/nanocommons/> ;
+ dct:title            "NanoCommons Knowledge Base - powered by BioXM™"@en ;
+ foaf:img             <https://ssl.biomax.de/nanocommons/pic/biomax_logo_175px.png> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000003> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "JRC"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000003> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000004> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "JRC_run19-21"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000004> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000005> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "JRC_run22-24"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000005> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000006> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "KIT_IH_A549"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000006> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000007> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "KIT_IH_HCT116"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000007> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000008> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "KIT_SD"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000008> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000009> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "KIT_SD_THP1"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000009> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000010> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "NRCWE_BAL"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000010> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000011> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "NRCWE_Comet"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000011> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000012> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "CEA_Comet"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000012> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000013> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "CEA_53BP1"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000013> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000014> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "UCD_HepG2"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000014> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000015> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "UCD_RAW264.7"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000015> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000016> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "Zebrafish_KIT"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000016> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "Zebrafish_NOAEL_KIT"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "HepaRG_NOAEL_JRC"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "HepaRG_NOAEL_JRC_run19-21"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "HepaRG_NOAEL_JRC_run22-24"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "A549_NOAEL_KIT"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "HCT116_NOAEL_KIT"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "A549_NOAEL_LMU"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "HEPG2_NOAEL_UCD"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000025> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "RAW264.7_NOAEL_UCD"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000025> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000108> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "22. LEITAT-20190820_MWCNT_NB;"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000108> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000110> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "23. LEITAT-20190820_tent_NB"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000110> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000113> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "24. LEITAT-20190806_TiO2_FCCCO_VP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000113> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000204> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "25. LEITAT-20190820_ink_NB"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000204> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000205> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "26. LEITAT-20190820_AgNPs_VP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000205> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000206> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "27. LEITAT-20190820_AgNWs_L_VP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000206> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000208> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "28. LEITAT-20190820_AgNWs_s_VP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000208> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000209> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "29. 20190820_SC_NB-A"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000209> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000210> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "30. 20190820_SC_NB-B"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000210> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000211> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "31. 20190820_SC_NB-C"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000211> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000301> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "Nanogentools"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000301> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000303> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "32. 20190820_SC_NB-D"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000303> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000402> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "33. 20190820_SC_NB-E-TiO2"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000402> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000501> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "34. 20190820_SC_NB-E-Zn"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000501> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000502> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "35. LEITAT-20190806_TiO2_INOTEX_VP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000502> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000602> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "36. Vienna-Dissolution-screening-test2017_NanoFASE_v2"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000602> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000604> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "21. NanoFASE-template_revised - For Burkhard"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000604> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000606> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "07. Vrije University - NanoFASE-template_Enchytraeids_Dorset"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000606> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000609> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "08. Vrije University - NanoFASE-template_Enchytraeids_Lufa"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000609> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000611> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "09. Vrije University - NanoFASE-template_Enchytraeids_Woburn"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000611> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000612> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "10. Vrije University - NanoFASE-template_Springtails_Dorset"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000612> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000613> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "11. Vrije University - NanoFASE-template_Springtails_Lufa"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000613> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000614> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "12. Vrije University - NanoFASE-template_Springtails_North Wales"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000614> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000615> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "13. Vrije University - NanoFASE-template_Springtails_Woburn"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000615> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000701> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "SmartNanoTox"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000701> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000805> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "14. NanoFASE-template_Venice DLS - TiO2 Uncoated"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000805> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000807> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "15. NanoFASE-template_Venice DLS - TiO2 PVP"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000807> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000808> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "16. NanoFASE-template_Venice DLS - Kaolinite"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000808> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000809> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "17. Ljubljana - NanoFASE-template_revised-Single Species - Lufa 2.2"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000809> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000810> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "18. Ljubljana - NanoFASE-template_revised-Single Species - North Wales"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000810> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000811> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "19. Ljubljana - NanoFASE-template_revised-Single Species - Woburn"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000811> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000812> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "20. Aveiro-NanoFASE-template_Dissolution_SG"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000812> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000813> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "01. NanoFASE-template_Mesocosm_Plymouth"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000813> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000814> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "05. EAWAG_Pyrolysis_data_Final"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000814> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000815> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "06. EAWAG - Ce_incineration_data"@en ;
+  dc:description ""@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000815> .
+
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000901> a sbd:Dataset ;
+  dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
+  rdfs:label "Synthesis of PVP-capped nanoMILE nanomaterials"@en ;
+  dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+  foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000901> .
+
