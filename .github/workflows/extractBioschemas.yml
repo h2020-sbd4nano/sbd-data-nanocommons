@@ -22,7 +22,8 @@ jobs:
 
       - name: Extract Bioschemas
         run: |
-          groovy extractBioschemas.groovy | tee datasets.ttl
+          groovy extractBioschemas.groovy > datasets.ttl
+          groovy extractBioschemas_KB.groovy > biomax.ttl
 
       - name: Commit Turtle
         run: |
