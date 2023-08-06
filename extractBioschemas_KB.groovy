@@ -13,23 +13,17 @@ jsoup = new net.bioclipse.managers.JSoupManager(".");
 root = "https://ssl.biomax.de/nanocommons/"
 
 htmlContent = bioclipse.download("${root}cgi/login_bioxm_portal.cgi")
-
 htmlDom = jsoup.parseString(htmlContent)
 
 // application/ld+json
-
 bioschemasSections = jsoup.select(htmlDom, "script[type='application/ld+json']");
 
-links = []
-for (section in bioschemasSections) {
-  links.add(section.attr("src").replace("../", root))
-}
-
 kg = rdf.createInMemoryStore()
-
-for (link in links) {
-  bioschemasJSON = bioclipse.download(link)
-  rdf.importFromString(kg, bioschemasJSON, "JSON-LD")
+for (section in bioschemasSections) {
+  bioschemasJSON = section.html().trim()
+  if (!bioschemasJSON.isEmpty()) { // skip empty sections, using the older @src approach
+    rdf.importFromString(kg, bioschemasJSON, "JSON-LD")
+  }
 }
 
 turtle = rdf.asTurtle(kg);
