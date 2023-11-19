@@ -123,56 +123,64 @@ bmType:NOAEL_DataSet rdfs:subclassOf sbd:Dataset ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000018"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "HepaRG_NOAEL_JRC"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000018> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000019"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "HepaRG_NOAEL_JRC_run19-21"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000019> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000020"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "HepaRG_NOAEL_JRC_run22-24"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000020> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000021"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "A549_NOAEL_KIT"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000021> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000022"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "HCT116_NOAEL_KIT"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000022> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000023"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "A549_NOAEL_LMU"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000023> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000024"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "HEPG2_NOAEL_UCD"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000024> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000025> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000025> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000025"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "RAW264.7_NOAEL_UCD"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
