@@ -4,6 +4,7 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix bmType: <https://nanocommons.github.io/types/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
 
@@ -12,6 +13,9 @@
  dc:source            <https://ssl.biomax.de/nanocommons/> ;
  dct:title            "NanoCommons Knowledge Base - powered by BioXM™"@en ;
  foaf:img             <https://ssl.biomax.de/nanocommons/pic/biomax_logo_175px.png> .
+
+bmType:NOAEL_DataSet rdfs:subclassOf sbd:Dataset ;
+  rdfs:label "NOAEL (No Observed Adverse Effect Level)"@en .
 
 <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000003> a sbd:Dataset ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
@@ -111,7 +115,8 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
   foaf:page <https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000016> .
 
-<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017> a sbd:Dataset ;
+<https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000017> a bmType:NOAEL_DataSet ;
+  dc:identifier "DS00000017"@en ;
   dc:source <https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi> ;
   rdfs:label "Zebrafish_NOAEL_KIT"@en ;
   dc:description "Protocols for the synthesis of PVP-capped nanomaterials created and analysed within the nanoMILE project"@en ;
