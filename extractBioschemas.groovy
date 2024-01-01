@@ -75,7 +75,6 @@ for (i=1;i<=results.rowCount;i++) {
       "http://purl.org/dc/elements/1.1/description", results.get(i, "description"), "en")
   if (results.get(i, "license") != null) rdf.addObjectProperty(store, datasetIRI, propLicense, results.get(i, "license"))
   rdf.addObjectProperty(store, datasetIRI, "http://xmlns.com/foaf/0.1/page", results.get(i, "url"))
-  println ""
 }
 
 println rdf.asTurtle(store)
