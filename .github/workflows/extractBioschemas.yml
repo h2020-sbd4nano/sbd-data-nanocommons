@@ -22,6 +22,8 @@ jobs:
 
       - name: Extract Bioschemas
         run: |
+          export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+          groovy -version
           groovy extractBioschemas.groovy > datasets.ttl
           groovy extractBioschemas_KB.groovy > biomax.ttl
 
