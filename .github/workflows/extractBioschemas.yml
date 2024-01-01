@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install groovy
-        run: sudo apt install groovy
+        run: sudo apt install groovy openjdk-17-jdk-headless
 
       - name: Extract Bioschemas
         run: |
