@@ -63,7 +63,10 @@ for (i=1;i<=results.rowCount;i++) {
   println "<${results.get(i, "dataset")}> a sbd:Dataset ;"
   println "  dc:source <https://nanocommons.github.io/datasets/> ;"
   if (results.get(i, "name") != null) println "  rdfs:label \"${results.get(i, "name")}\"@en ;"
-  if (results.get(i, "description") != null) println "  dc:description \"${results.get(i, "description")}\"@en ;"
+  if (results.get(i, "description") != null) {
+    description = results.get(i, "description").replaceAll("\"", "\\\"") 
+    println "  dc:description \"${description}\"@en ;"
+  }
   if (results.get(i, "license") != null) println "  dct:license <${results.get(i, "license")}> ;"
   println "  foaf:page <${results.get(i, "url")}> ."
   println ""
