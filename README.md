@@ -1,3 +1,5 @@
+[![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-nanocommons/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-nanocommons/actions/workflows/extractBioschemas.yml)
+
 # sbd-data-nanocommons
 Import module for NanoCommons data. In the future this import should be done by an approach using the
 [BMUSE software](https://github.com/HW-SWeL/BMUSE).
