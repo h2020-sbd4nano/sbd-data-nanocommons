@@ -1,4 +1,4 @@
-#760 triples detected in the JSON-LD
+#771 triples detected in the JSON-LD
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -220,6 +220,14 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7940539> .
+
+<https://doi.org/10.5281/zenodo.13862979>
+        a               sbd:Dataset;
+        rdfs:label      "Raw and processed data, gating strategy, and photographs of instrumental setup of NAVETTA"@en;
+        dc:description  "Supplementary Information and Raw Data for Weiss et al., Comp Struct Biotechn J: Nanosci Adv Mat, 2024 1. xls sheet of raw and processed data for all figures 2.-3. gating strategies for flow cytometry experiments 4.-8. photographs of instrumental setups"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.13862979> .
 
 <https://doi.org/10.5281/zenodo.7961318>
         a               sbd:Dataset;
