@@ -1,4 +1,4 @@
-#771 triples detected in the JSON-LD
+#891 triples detected in the JSON-LD
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -6,6 +6,14 @@
 @prefix sbd:  <https://www.sbd4nano.eu/rdf/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.5281/zenodo.13955028>
+        a               sbd:Dataset;
+        rdfs:label      "RDF version of the data from Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020)"@en;
+        dc:description  "This is an RDFied version of the dataset published by Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020). The original dataset publication DOI: http://doi.org/10.5281/zenodo.4146981. The Original publication authors: Saarimaki, Laura Aliisa, Federico, Antonio, Lynch, Iseult, Papadiamantis, Anastasios G., Tsoumanis, Andreas, Melagraki, Georgia, Afantitis, Antreas, Serra, Angela, & Greco, Dario"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://zenodo.org/record/13955028> .
 
 <https://doi.org/10.5281/zenodo.7966166>
         a               sbd:Dataset;
@@ -47,6 +55,14 @@
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7990251> .
 
+<https://doi.org/10.5281/zenodo.16640543>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC2_Pchem_Lung dissolution"@en;
+        dc:description  "The dataset captures the dissolution rate of NMs in simulated lung fluids, specifically in lung lining fluid and phagolysosomal fluid representing NM uptake by alveolar macrophages using in vitro acellular dissolution (ISO/TR 19057; 2017) quantifying ionic concentrations in soluble fractions. The dataset includes NM preparation, dispersion, physicochemical characterization, and dissolution behaviour. DLS measurements at t₀ assess hydrodynamic diameter, with size distribution detailed through intensity peaks (1, 2, 3) and PDI, alongside derived count rate and mean count rate for light scattering intensity, all with SDs. Surface charge is characterized through ζ-potential and corresponding pH. The dataset also documents static dissolution media and exposure conditions. Dissolution behaviour is analysed at several time points by obtaining the soluble fractions via ultrafiltration, and using ICP-MS for measuring initial element concentration and ionic concentration after dissolution to calculate the percentage of dissolved material, providing insights into NM solubility and bioavailability. Notably, this dataset was prepared using a GRACIOUS template, which differs. All metadata including protocols and instrumentation are consolidated within a single tab rather than separated across multiple sheets. Finally, in a small number of cases, missing values for physicochemical parameters were estimated by interpolation based on known exposure doses and dissolution media. These interpolated values are clearly marked in red for transparency"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16640543> .
+
 <https://doi.org/10.5281/zenodo.7965446>
         a               sbd:Dataset;
         rdfs:label      "Physico-chemical characterization of sterilized Ce0.5Zr0.5O2 nanoparticles by XPS / HAXPES / SEM"@en;
@@ -87,14 +103,6 @@
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.8314626> .
 
-<https://doi.org/10.5281/zenodo.5744302>
-        a               sbd:Dataset;
-        rdfs:label      "RDF version of the data from Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019)"@en;
-        dc:description  "This is an RDFied version of the dataset published by Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019). The original dataset publication DOI: https://doi.org/10.1021/acsnano.8b07562 The Original publication authors: Hagar I. Labouta, Nasimeh Asgarian, Kristina Rinker, and David T. Cramb"@en;
-        dc:source       <https://nanocommons.github.io/datasets/>;
-        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
-        foaf:page       <https://doi.org/10.5281/zenodo.5744302> .
-
 <https://doi.org/10.5281/zenodo.4986068>
         a               sbd:Dataset;
         rdfs:label      "BAM reference data: XPS raw data of Al-coated titania nanoparticles (JRCNM62001a and JRCNM62002a)"@en;
@@ -119,13 +127,29 @@
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7989699> .
 
-<https://doi.org/10.5281/zenodo.5744003>
+<https://doi.org/10.5281/zenodo.16639865>
         a               sbd:Dataset;
-        rdfs:label      "RDF version of the data from Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020)"@en;
-        dc:description  "This is an RDFied version of the dataset published by Saarimaki et al. Manually curated transcriptomics data collection for toxicogenomic assessment of engineered nanomaterials (Version 1.0.0) [Zenodo Dataset] (2020). The original dataset publication DOI: http://doi.org/10.5281/zenodo.4146981. The Original publication authors: Saarimaki, Laura Aliisa, Federico, Antonio, Lynch, Iseult, Papadiamantis, Anastasios G., Tsoumanis, Andreas, Melagraki, Georgia, Afantitis, Antreas, Serra, Angela, & Greco, Dario"@en;
+        rdfs:label      "ASINA Dataset: LC1_σ_lung"@en;
+        dc:description  "The dataset captures media-dependent physicochemical properties and biological responses in in vitro lung models. Hydrodynamic diameter and PDI are measured via DLS at t₀ (immediately after preparation) and t₂₄ (24 hours later), with SD values reported. Exposure conditions include concentration (expressed as µg/mL), and time of exposure (h). Biological features include cell line, cell type, cell origin, and well format (e.g., 96-well plate). Cell viability is evaluated using Alamar Blue assays along with inflammation-ROS quantification, and genotoxicity (γH2AX)."@en;
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
-        foaf:page       <https://zenodo.org/record/5744003> .
+        foaf:page       <https://doi.org/10.5281/zenodo.16639865> .
+
+<https://doi.org/10.5281/zenodo.16638986>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC1_pchem (UNILI)"@en;
+        dc:description  "The dataset provides morphological, crystallographic, and surface chemistry data. Morphology is assessed via Transmission Electron Microscopy (TEM), with particle size distribution measured at multiple magnifications (50kX, 100kX, 400kX), including average sizes and SDs. Specific surface area and band gaps are also reported. Crystallographic properties are characterized using X-ray Diffraction (XRD) capturing crystallinity percentage, amorphous phase content, average crystallite size, and specific crystal structures. Surface chemistry is analyzed via X-ray Photoelectron Spectroscopy (XPS), providing elemental composition, binding energies for electron transitions, and % atomic concentration."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16638986> .
+
+<https://doi.org/10.5281/zenodo.17052010>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC2_σ_Exposure_campaigns"@en;
+        dc:description  "ERM is added to the original dataset. Human safety - exposure dataset captures occupational exposure data from Near-Field (NF), Far-Field (FF), and inside spray coating machinery monitoring campaigns, providing insights into aerosol generation during NEP coating process. Measurements were obtained using Scanning Mobility Particle Sizer (SMPS) and Optical Particle Counter (OPC) to assess processing conditions and aerosol behaviour in industrial settings. Key aerosol-related parameters include particle number concentration in NF as an indicator of worker exposure, with SDs. Background conditions were assessed across various operational states, including when the spray process was inactive, ventilation running, and oven in operation. Particle size information of the process emissions in NF provides insight into the dynamic behaviour of aerosol particles indoors and in the human lungs. NM mass concentrations were measured in NF, inside the spray coating, and FF using Teflon filters, with Ti concentrations analysed by ICP-MS. Values were normalized by air volume (m³) to calculate NM mass concentrations (µg/m³), with SDs reflecting variability. The metadata folder contains extensive raw data, structured across three monitoring campaigns, with both on-line and off-line measurements in time-series formats. It includes NANEOS and OPC data, along with detailed records of additional parameters, offering a comprehensive source for exposure analysis. A detailed descriptor breakdown in Table S9. It is important to note that some metadata files contain additional data from monitoring campaigns; however, the necessary information to include the key descriptors that define each experiment was not available. As a result, these data could not be integrated into the Descriptors tab, where all results were systematically merged. This limitation affects the ability to directly link certain metadata records to the structured dataset but does not compromise the availability of raw exposure data."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.17052010> .
 
 <https://doi.org/10.5281/zenodo.3467015>
         a               sbd:Dataset;
@@ -143,20 +167,20 @@
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7966134> .
 
+<https://doi.org/10.5281/zenodo.13955011>
+        a               sbd:Dataset;
+        rdfs:label      "RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)"@en;
+        dc:description  "This is an RDFied version of the dataset published in Choi, JS., Ha, M.K., Trinh, T.X. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources. Sci Rep 8, 6110 (2018). The original dataset publication DOI: https://doi.org/10.1038/s41598-018-24483-z. The Original publication authors: Jang-Sik Choi, My Kieu Ha, Tung Xuan Trinh, Tae Hyun Yoon & Hyung-Gi Byun"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://zenodo.org/record/13955011> .
+
 <https://nanocommons.github.io/datasets/>
         a            void:DatasetDescription;
         dc:source    <https://nanocommons.github.io/datasets/>;
         dct:license  <http://creativecommons.org/publicdomain/zero/1.0/>;
         dct:title    "Overview of open datasets released by NanoSafety Cluster projects"@en;
         foaf:img     <https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png> .
-
-<https://doi.org/10.5281/zenodo.5743204>
-        a               sbd:Dataset;
-        rdfs:label      "RDF version of the data from Choi, JS. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources (2018)"@en;
-        dc:description  "This is an RDFied version of the dataset published in Choi, JS., Ha, M.K., Trinh, T.X. et al. Towards a generalized toxicity prediction model for oxide nanomaterials using integrated data from different sources. Sci Rep 8, 6110 (2018). The original dataset publication DOI: https://doi.org/10.1038/s41598-018-24483-z. The Original publication authors: Jang-Sik Choi, My Kieu Ha, Tung Xuan Trinh, Tae Hyun Yoon & Hyung-Gi Byun"@en;
-        dc:source       <https://nanocommons.github.io/datasets/>;
-        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
-        foaf:page       <https://zenodo.org/record/5743204> .
 
 <https://doi.org/10.5281/zenodo.7966355>
         a               sbd:Dataset;
@@ -172,6 +196,30 @@
         dc:source    <https://nanocommons.github.io/datasets/>;
         dct:license  <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page    <https://zenodo.org/record/7335039> .
+
+<https://doi.org/10.5281/zenodo.16639912>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC1_σ_intestine"@en;
+        dc:description  "The dataset provides toxicity testing in intestinal cell models and includes exposure conditions, and cellular responses such as cell viability (WST-1), ROS quantification (DHR123), and genotoxicity (53BP1)."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16639912> .
+
+<https://doi.org/10.5281/zenodo.16643573>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC3_ε_Bioaccumulation"@en;
+        dc:description  "The environmental ε_Bioaccumulation.xlsx dataset provides bioaccumulation Ti uptake in biological organisms, following OECD 317 protocol. Enchytraeus crypticus were exposed to TiO₂ in soil for 14 days to monitor uptake rates (by mass), followed by a 14-day transfer to clean soil to assess elimination. The nominal exposure concentration (mg/kg) represents the intended TiO2 NM dose administered in the soil. The dataset captures sampling phase, and time points post-exposure, supporting toxicokinetic analysis. The data differentiates between pooled vs. individual samples by indicated the number of organisms included in the sample, and includes biomass measurements (wet and dry weight at each sampling time point)."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16643573> .
+
+<https://doi.org/10.5281/zenodo.16639595>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC1_σ_dermal"@en;
+        dc:description  "The dataset captures exposure conditions and cellular responses, of NM-induced cytotoxicity (WST-1), ROS quantification (DHR123, CellROX) and genotoxicity (53BP1, micronucleus chromosomal damage in binucleated cells using High-Content Analysis). It includes NM solution treatment (e.g., sonication), culture medium (e.g., DMEM), exposure concentration, and duration (h)"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16639595> .
 
 <https://doi.org/10.6084/m9.figshare.7844594.v1>
         a               sbd:Dataset;
@@ -197,6 +245,14 @@
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.8297068> .
 
+<https://doi.org/10.5281/zenodo.13955059>
+        a               sbd:Dataset;
+        rdfs:label      "RDF version of the data from Anastasios G. et al. Computational enrichment of physicochemical data for the development of a zeta-potential read-across predictive model with Isalos Analytics Platform. NanoImpact (2021)"@en;
+        dc:description  "This is an RDFied version of the dataset published by Anastasios G. et al. Computational enrichment of physicochemical data for the development of a zeta-potential read-across predictive model with Isalos Analytics Platform. NanoImpact (2021). The original dataset publication DOI: https://doi.org/10.1016/j.impact.2021.100308 The Original publication authors: Anastasios G. Papadiamantis, Antreas Afantitis, Andreas Tsoumanis, Eugenia Valsami-Jones, Iseult Lynch, Georgia Melagraki"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.13955059> .
+
 <https://doi.org/10.5281/zenodo.7940162>
         a               sbd:Dataset;
         rdfs:label      "Physico-chemical characterization of sterilized ZnO nanoparticles by XPS / HAXPES / SEM"@en;
@@ -204,6 +260,14 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7940162> .
+
+<https://doi.org/10.5281/zenodo.13955018>
+        a               sbd:Dataset;
+        rdfs:label      "RDF version of the data from Anastasios G. Papadiamantis et al. Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform (2020)"@en;
+        dc:description  "This is an RDFied version of the dataset published in Papadiamantis, A.G. et al. Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform. Nanomaterials 2020, 10, 2017. The original dataset publication DOI: https://doi.org/10.3390/nano10102017. The Original publication authors: Papadiamantis, A.G.; Jänes, J.; Voyiatzis, E.; Sikk, L.; Burk, J.; Burk, P.; Tsoumanis, A.; Ha, M.K.; Yoon, T.H.; Valsami-Jones, E.; Lynch, I.; Melagraki, G.; Tämm, K.; Afantitis, A."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://zenodo.org/record/13955018> .
 
 <https://doi.org/10.6084/m9.figshare.2056095.v1>
         a               sbd:Dataset;
@@ -245,6 +309,14 @@
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.8297048> .
 
+<https://doi.org/10.5281/zenodo.16642517>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC2_σ_Ηuman lung_real dose"@en;
+        dc:description  "From the exposure campaigns (10.5281/zenodo.16641460) the alveolar retained doses (μg/cm²) from Multiple-path particle dosimetry (MPPD) model (10.5281/zenodo.16642495) were then translated into real occupational exposure doses and tested in Tier 2 advanced in vitro models, using A549 cells co-cultured with alveolar macrophages derived from THP-1 monocytes (Motta et al. 2024). σ_Ηuman lung_real dose.xlsx dataset includes physicochemical properties, and biological responses of NM (not NEP_ID), supporting hazard evaluation. Biological responses assess NM effects on the cell lines under exposure conditions (ng/cm², h). Cytotoxicity is measured via lactate dehydrogenase (LDH) release (%), while inflammatory responses are evaluated through fold changes in pro-inflammatory cytokines, including Interleukins 8, 6 and 1β (IL-8, IL-6, IL-1β)."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16642517> .
+
 <https://doi.org/10.5281/zenodo.4421969>
         a               sbd:Dataset;
         rdfs:label      "Status quo in data availability and predictive models of nano-mixture toxicity"@en;
@@ -275,14 +347,6 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7941567> .
-
-<https://doi.org/10.5281/zenodo.5744082>
-        a               sbd:Dataset;
-        rdfs:label      "RDF version of the data from Anastasios G. et al. Computational enrichment of physicochemical data for the development of a zeta-potential read-across predictive model with Isalos Analytics Platform. NanoImpact (2021)"@en;
-        dc:description  "This is an RDFied version of the dataset published by Anastasios G. et al. Computational enrichment of physicochemical data for the development of a zeta-potential read-across predictive model with Isalos Analytics Platform. NanoImpact (2021). The original dataset publication DOI: https://doi.org/10.1016/j.impact.2021.100308 The Original publication authors: Anastasios G. Papadiamantis, Antreas Afantitis, Andreas Tsoumanis, Eugenia Valsami-Jones, Iseult Lynch, Georgia Melagraki"@en;
-        dc:source       <https://nanocommons.github.io/datasets/>;
-        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
-        foaf:page       <https://doi.org/10.5281/zenodo.5744082> .
 
 <https://doi.org/10.5281/zenodo.7980953>
         a               sbd:Dataset;
@@ -323,6 +387,14 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7990214> .
+
+<https://doi.org/10.5281/zenodo.16640035>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC1_σ_acellular"@en;
+        dc:description  "The σ_Acellular.xlsx dataset captures experimental conditions for assessing NM-induced oxidative stress. The reactive molecule (e.g., glutathione (GSH), reactive nitrogen/oxygen species (RNO)) and media type define the reaction environment. The physicochemical properties include hydrodynamic diameter (DLS) and ζ-potential (ELS), with pH recorded. The properties reported in this dataset are not duplicates of those provided in the dedicated physicochemical files. Instead, they represent separate measurements conducted by a different partner, under different conditions, and often in exposure-relevant media. As a result, they should be interpreted as complementary and not redundant. Exposure conditions cover concentration, duration, and intermediate preparation volumes. The dataset records control absorbance, peak absorbance wavelength, and unreacted model molecule concentration. The percentage of the model molecule and GSH/RNO consumed provides a measure of NM-induced redox activity."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16640035> .
 
 <https://doi.org/10.6084/m9.figshare.11897205.v1>
         a               sbd:Dataset;
@@ -388,14 +460,6 @@
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.4146981> .
 
-<https://doi.org/10.5281/zenodo.5743788>
-        a               sbd:Dataset;
-        rdfs:label      "RDF version of the data from Anastasios G. Papadiamantis et al. Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform (2020)"@en;
-        dc:description  "This is an RDFied version of the dataset published in Papadiamantis, A.G. et al. Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform. Nanomaterials 2020, 10, 2017. The original dataset publication DOI: https://doi.org/10.3390/nano10102017. The Original publication authors: Papadiamantis, A.G.; Jänes, J.; Voyiatzis, E.; Sikk, L.; Burk, J.; Burk, P.; Tsoumanis, A.; Ha, M.K.; Yoon, T.H.; Valsami-Jones, E.; Lynch, I.; Melagraki, G.; Tämm, K.; Afantitis, A."@en;
-        dc:source       <https://nanocommons.github.io/datasets/>;
-        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
-        foaf:page       <https://zenodo.org/record/5743788> .
-
 <https://doi.org/10.5281/zenodo.7941002>
         a               sbd:Dataset;
         rdfs:label      "Physico-chemical characterization of sterilized Fe2O3 nanoparticles by XPS / HAXPES / SEM"@en;
@@ -427,6 +491,22 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by-nc/3.0/de/legalcode>;
         foaf:page       <https://zenodo.org/record/7986673> .
+
+<https://doi.org/10.5281/zenodo.16637081>
+        a               sbd:Dataset;
+        rdfs:label      "ASINA Dataset: LC1_pchem (ISSMC)"@en;
+        dc:description  "The dataset focuses on hydrodynamics and surface charge properties. It includes the initial stock concentration (weight-based) and the diluted working concentration. Hydrodynamic diameter and PDI are measured using DLS in suspension, with SDs reported. Surface charge properties are assessed through ζ-potential measurements in water, recorded alongside SDs and pH values, using ELS. The isoelectric point is reported, indicating the pH at which NMs exhibit zero net surface charge. This dataset is complete, with no missing values."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16637081> .
+
+<https://doi.org/10.5281/zenodo.13955050>
+        a               sbd:Dataset;
+        rdfs:label      "RDF version of the data from Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019)"@en;
+        dc:description  "This is an RDFied version of the dataset published by Hagar I. Labouta et al. Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature. NanoImpact (2019). The original dataset publication DOI: https://doi.org/10.1021/acsnano.8b07562 The Original publication authors: Hagar I. Labouta, Nasimeh Asgarian, Kristina Rinker, and David T. Cramb"@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.13955050> .
 
 <https://doi.org/10.5281/zenodo.7966245>
         a               sbd:Dataset;
