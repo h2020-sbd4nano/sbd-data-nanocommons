@@ -1,4 +1,4 @@
-#891 triples detected in the JSON-LD
+#915 triples detected in the JSON-LD
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -110,6 +110,14 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.4986068> .
+
+<https://doi.org/10.5281/zenodo.7193516>
+        a               sbd:Dataset;
+        rdfs:label      "caLIBRAte - eNanoMapper database"@en;
+        dc:description  "The objective of the caLIBRAte project was to establish a state-of-the-art versatile Risk Governance framework for assessment and management of human and environmental risks of MN and MN-enabled products. Since 1 October 2022 the data gathered in the project are publicly available via the caLIBRAte - eNanoMapper database. A standalone Docker instance is also available. The caLIBRAte database is subject to updates during completion of supplemental analysis after publication as an open database entity."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.7193516> .
 
 <https://doi.org/10.5281/zenodo.7990086>
         a               sbd:Dataset;
@@ -331,6 +339,14 @@
         dc:source    <https://nanocommons.github.io/datasets/>;
         dct:license  <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page    <https://zenodo.org/record/6473305> .
+
+<https://doi.org/10.5281/zenodo.7777590>
+        a               sbd:Dataset;
+        rdfs:label      "GRACIOUS - eNanoMapper database"@en;
+        dc:description  "The GRACIOUS project developed a highly innovative science-based Framework to enable practical application of grouping, leading to read-across and classification of nanomaterials and nanoforms. Since 1 April 2023 the data gathered in the project are publicly available via the GRACIOUS - eNanoMapper database. A standalone Docker instance is also available."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by-sa/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.7777590> .
 
 <https://doi.org/10.5281/zenodo.8297022>
         a               sbd:Dataset;
