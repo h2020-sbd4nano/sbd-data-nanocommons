@@ -1,4 +1,4 @@
-#915 triples detected in the JSON-LD
+#926 triples detected in the JSON-LD
 @prefix dc:   <http://purl.org/dc/elements/1.1/> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -142,6 +142,14 @@
         dc:source       <https://nanocommons.github.io/datasets/>;
         dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
         foaf:page       <https://doi.org/10.5281/zenodo.16639865> .
+
+<https://doi.org/10.5281/zenodo.16878421>
+        a               sbd:Dataset;
+        rdfs:label      "Simulation Data of Fe₃O₄ (Magnetite) and SiO₂ (α-Quartz) Nanoparticles in Water Generated with HydroNanoConstruct"@en;
+        dc:description  "This dataset contains XYZ and LAMMPS datafiles for a series of Fe₃O₄ (magnetite) and SiO₂ (α-quartz) nanoparticles dispersed in water. The systems were generated using HydroNanoConstruct, a tool designed for the digital construction of hydrated metal and metalloid oxide nanoparticles suitable for molecular simulations. The dataset includes XYZ and LAMMPS datafiles for Fe₃O₄ and SiO₂ nanoparticles of varying sizes and shapes, including spherical and ellipsoidal geometries."@en;
+        dc:source       <https://nanocommons.github.io/datasets/>;
+        dct:license     <https://creativecommons.org/licenses/by/4.0/legalcode>;
+        foaf:page       <https://doi.org/10.5281/zenodo.16878421> .
 
 <https://doi.org/10.5281/zenodo.16638986>
         a               sbd:Dataset;
